@@ -2,6 +2,7 @@
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
+  "homepage": "https://ingoyee003.github.io/Rifah-s-Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -95,9 +96,4 @@
     }
   }
 }
-<<<<<<< HEAD
 
-"homepage": "https://ingoyee003.github.io/Rifah-s-Portfolio"
-
-=======
->>>>>>> 7ffcba8d (fix github pages path)
