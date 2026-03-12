@@ -120,7 +120,7 @@ export function Projects() {
           //stars: 45,
         },
         {
-          title: "Recent Portfolio Interactive",
+          title: "Professional Portfolio",
           description:
             "Latest interactive portfolio website with dynamic animations, engaging user interactions, responsive design, and modern aesthetics to create a memorable browsing experience.",
           image:
@@ -128,7 +128,7 @@ export function Projects() {
           tags: ["React", "Framer Motion", "TypeScript", "CSS"],
           github:
             "https://github.com/Ingoyee003/Rifah-s-Portfolio.git",
-          demo: "#",
+          demo: "https://ingoyee003.github.io/Rifah-s-Portfolio/",
           //stars: 28,
         },
         {
