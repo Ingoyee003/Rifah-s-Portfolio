@@ -128,7 +128,7 @@ export function Projects() {
           tags: ["React", "Framer Motion", "TypeScript", "CSS"],
           github:
             "https://github.com/Ingoyee003/Rifah-s-Portfolio.git",
-          demo: "https://ingoyee003.github.io/Rifah-s-Portfolio/",
+          demo: "https://rifah-portfolio.vercel.app/",
           //stars: 28,
         },
         {
@@ -234,6 +234,34 @@ export function Projects() {
           //stars: 19,
           hideLinks: true,
         },
+        {
+  title: "360 Pathshala Website Manual Testing",
+  description:
+    "Conducted manual testing on the 360 Pathshala website to evaluate functionality, usability, and responsiveness. Designed and executed test cases, identified UI inconsistencies, broken links, and validation issues, and documented findings through structured bug reports.",
+  image:
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop",
+  tags: ["Manual Testing", "Test Case Design", "Bug Reporting", "UI Testing"],
+  //stars: 19,
+  hideLinks: true,
+},
+{
+  title: "Web Application Manual Testing (OrangeHRM Demo)",
+  description:
+    "Performed end-to-end manual testing on the OrangeHRM demo web application. Created test cases for login, employee management, and leave modules. Identified UI issues, input validation errors, and functional bugs while documenting results in structured test reports.",
+  image:
+    "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1080&auto=format&fit=crop",
+  tags: ["Manual Testing", "Test Case Writing", "Functional Testing", "Bug Reporting"],
+  hideLinks: true,
+},
+{
+  title: "REST API Testing with Postman",
+  description:
+    "Tested REST APIs using Postman by validating request methods, response codes, and JSON data structures. Designed API test scenarios, verified CRUD operations, and documented results to ensure API reliability and correctness.",
+  image:
+    "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
+  tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
+  hideLinks: true,
+},
         {
           title: "Mobile App Testing Framework",
           description:
