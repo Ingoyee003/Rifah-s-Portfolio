@@ -225,16 +225,16 @@ export function Projects() {
           //stars: 24,
         },
         {
-  title: "Cross-Browser & Responsive Testing",
-  description:
-    "Conducted cross-browser and responsive testing to ensure consistent functionality and layout across Chrome, Firefox, and Edge browsers as well as different screen sizes. Identified UI misalignment, responsiveness issues, and layout inconsistencies.",
-  image:
-    "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1080&auto=format&fit=crop",
-  tags: ["Cross Browser Testing", "Responsive Testing", "UI Testing"],
-  github:
-            "https://github.com/Ingoyee003/Cross-Browser-Responsive-Testing.git",
-          //stars: 24,
-}
+          title: "Cross-Browser & Responsive Testing",
+          description:
+            "Conducted cross-browser and responsive testing to ensure consistent functionality and layout across Chrome, Firefox, and Edge browsers as well as different screen sizes. Identified UI misalignment, responsiveness issues, and layout inconsistencies.",
+          image:
+            "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1080&auto=format&fit=crop",
+          tags: ["Cross Browser Testing", "Responsive Testing", "UI Testing"],
+          github:
+                    "https://github.com/Ingoyee003/Cross-Browser-Responsive-Testing.git",
+                  //stars: 24,
+        },
         {
           title: "E-commerce Test Automation Suite",
           description:
@@ -246,33 +246,33 @@ export function Projects() {
           hideLinks: true,
         },
         {
-  title: "360 Pathshala Website Manual Testing",
-  description:
-    "Conducted manual testing on the 360 Pathshala website to evaluate functionality, usability, and responsiveness. Designed and executed test cases, identified UI inconsistencies, broken links, and validation issues, and documented findings through structured bug reports.",
-  image:
-    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop",
-  tags: ["Manual Testing", "Test Case Design", "Bug Reporting", "UI Testing"],
-  //stars: 19,
-  hideLinks: true,
-},
-{
-  title: "Web Application Manual Testing (OrangeHRM Demo)",
-  description:
-    "Performed end-to-end manual testing on the OrangeHRM demo web application. Created test cases for login, employee management, and leave modules. Identified UI issues, input validation errors, and functional bugs while documenting results in structured test reports.",
-  image:
-    "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1080&auto=format&fit=crop",
-  tags: ["Manual Testing", "Test Case Writing", "Functional Testing", "Bug Reporting"],
-  hideLinks: true,
-},
-{
-  title: "REST API Testing with Postman",
-  description:
-    "Tested REST APIs using Postman by validating request methods, response codes, and JSON data structures. Designed API test scenarios, verified CRUD operations, and documented results to ensure API reliability and correctness.",
-  image:
-    "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
-  tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
-  hideLinks: true,
-},
+        title: "360 Pathshala Website Manual Testing",
+        description:
+          "Conducted manual testing on the 360 Pathshala website to evaluate functionality, usability, and responsiveness. Designed and executed test cases, identified UI inconsistencies, broken links, and validation issues, and documented findings through structured bug reports.",
+        image:
+          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop",
+        tags: ["Manual Testing", "Test Case Design", "Bug Reporting", "UI Testing"],
+        //stars: 19,
+        hideLinks: true,
+      },
+      {
+          title: "Web Application Manual Testing (OrangeHRM Demo)",
+          description:
+            "Performed end-to-end manual testing on the OrangeHRM demo web application. Created test cases for login, employee management, and leave modules. Identified UI issues, input validation errors, and functional bugs while documenting results in structured test reports.",
+          image:
+            "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1080&auto=format&fit=crop",
+          tags: ["Manual Testing", "Test Case Writing", "Functional Testing", "Bug Reporting"],
+          hideLinks: true,
+      },
+      {
+          title: "REST API Testing with Postman",
+          description:
+            "Tested REST APIs using Postman by validating request methods, response codes, and JSON data structures. Designed API test scenarios, verified CRUD operations, and documented results to ensure API reliability and correctness.",
+          image:
+            "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
+          tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
+          hideLinks: true,
+      },
         {
           title: "Mobile App Testing Framework",
           description:
