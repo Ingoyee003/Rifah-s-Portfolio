@@ -225,6 +225,17 @@ export function Projects() {
           //stars: 24,
         },
         {
+  title: "Cross-Browser & Responsive Testing",
+  description:
+    "Conducted cross-browser and responsive testing to ensure consistent functionality and layout across Chrome, Firefox, and Edge browsers as well as different screen sizes. Identified UI misalignment, responsiveness issues, and layout inconsistencies.",
+  image:
+    "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1080&auto=format&fit=crop",
+  tags: ["Cross Browser Testing", "Responsive Testing", "UI Testing"],
+  github:
+            "https://github.com/Ingoyee003/Cross-Browser-Responsive-Testing.git",
+          //stars: 24,
+}
+        {
           title: "E-commerce Test Automation Suite",
           description:
             "Comprehensive test automation framework for e-commerce platform covering end-to-end testing, API testing, and regression testing using Selenium.",
