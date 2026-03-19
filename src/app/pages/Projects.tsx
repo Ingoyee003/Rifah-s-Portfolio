@@ -242,7 +242,7 @@ export function Projects() {
           image:
             "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
           tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
-          hideLinks: true,
+          github: "https://github.com/Ingoyee003/employee-api-testing-postman-newman.git"
       },
         {
           title: "E-commerce Test Automation Suite",
