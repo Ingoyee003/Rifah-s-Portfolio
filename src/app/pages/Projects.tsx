@@ -235,6 +235,15 @@ export function Projects() {
                     "https://github.com/Ingoyee003/Cross-Browser-Responsive-Testing.git",
                   //stars: 24,
         },
+         {
+          title: "REST API Testing with Postman",
+          description:
+            "Tested REST APIs using Postman by validating request methods, response codes, and JSON data structures. Designed API test scenarios, verified CRUD operations, and documented results to ensure API reliability and correctness.",
+          image:
+            "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
+          tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
+          hideLinks: true,
+      },
         {
           title: "E-commerce Test Automation Suite",
           description:
@@ -262,15 +271,6 @@ export function Projects() {
           image:
             "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1080&auto=format&fit=crop",
           tags: ["Manual Testing", "Test Case Writing", "Functional Testing", "Bug Reporting"],
-          hideLinks: true,
-      },
-      {
-          title: "REST API Testing with Postman",
-          description:
-            "Tested REST APIs using Postman by validating request methods, response codes, and JSON data structures. Designed API test scenarios, verified CRUD operations, and documented results to ensure API reliability and correctness.",
-          image:
-            "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
-          tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
           hideLinks: true,
       },
         {
