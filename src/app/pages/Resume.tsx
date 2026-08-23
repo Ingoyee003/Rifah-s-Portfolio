@@ -62,7 +62,7 @@ export function Resume() {
             {[
               {
                 title: "Software Engineer & CEO",
-                company: "Contradox (Own Startup)",
+                company: "Contradox (Startup)",
                 period: "June 2025 - Present",
                 description: [
                   "Founded and leading a tech startup focused on innovative software solutions",
@@ -74,7 +74,7 @@ export function Resume() {
               {
                 title: "SQA Intern",
                 company: "SQALOGY",
-                period: "January 2026 - Present",
+                period: "January 2026 - June 2026",
                 description: [
                   "Performed manual and automation testing for various software applications",
                   "Created and executed test cases to ensure product quality",
@@ -84,7 +84,7 @@ export function Resume() {
               },
               {
                 title: "Mobile App Development Training",
-                company: "EDGE Project (ICT Division) — Government of Bangladesh",
+                company: "Bangladesh Computer Council (EDGE PROJECT) — Government of Bangladesh(ICT Division)",
                 period: "August 2024 - December 2024",
                 description: [
                   "Completed comprehensive structured training in Android development using Java and Kotlin",
@@ -148,8 +148,8 @@ export function Resume() {
               {
                 degree: "Bachelor of Science in Computer Science and Engineering",
                 school: "International Islamic University Chittagong",
-                period: "2022 - 2026 (Expected)",
-                gpa: "N/A",
+                period: "Jan 2022 - July 2026",
+                //gpa: "N/A",
                 highlights: [
                   "Specialization in Software Engineering and Mobile Application Development",
                   "Graphics and Design Secretary at IIUC Computer Club",
@@ -199,10 +199,10 @@ export function Resume() {
 
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {[
-              "Completed 15+ personal web development projects",
+              "Completed 15+ personal projects",
               "Achieved many voluntary and skills certificates over the years",
               "Contributed to 3 open-source projects on GitHub",
-              "Completed Google UX Design Certificate",
+              //"Completed Google UX Design Certificate",
               "Built full-stack applications using modern frameworks",
               "Mentored 5+ peers in web development fundamentals",
             ].map((achievement, index) => (

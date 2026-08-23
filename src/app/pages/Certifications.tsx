@@ -13,6 +13,7 @@ import cert9 from "./asset/roverx.jpg";
 import cert10 from "./asset/Volunteer.png";
 import cert11 from "./asset/edge.jpg";
 import cert12 from "./asset/P_Hero.jpg";
+import cert13 from "./asset/QPAIN2026.jpg";
 import acceptanceLetter from "./asset/paper_1.jpg";
 
 export function Certifications() {
@@ -27,6 +28,23 @@ export function Certifications() {
       description: "Successfully participated in the 4th International Congress on Recent Trends in Computer Science from 17th to 18th April 2025.",
       image: cert1,
     },
+    {
+  name: "2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence and Networking (QPAIN 2026) - Paper Presentation",
+  issuer: "IEEE Photonics Society Bangladesh Chapter",
+  date: "16-18 April 2026",
+  credentialId: "4493",
+  color: "from-indigo-600 to-purple-600",
+  skills: [
+    "Machine Learning",
+    "Neural Networks",
+    "Artificial Intelligence",
+    "Research Presentation",
+    "IEEE Conference",
+    "Paper Presentation"
+  ],
+  description: "Successfully presented the research paper titled \"Multi-Class Road Traffic Accident Severity Prediction Using Machine Learning and Neural Networks: A Comprehensive Study with Imbalance-Aware Techniques\" (Paper ID: 4493) at the 2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence and Networking (QPAIN 2026), held on 16-18 April 2026 at the IT Business Incubator, Chittagong University of Engineering and Technology (CUET), Chattogram, Bangladesh. Organized by the IEEE Photonics Society Bangladesh Chapter.",
+  image: cert13,
+},
     {
       name: "IIUC Tech Fest 2025 - Deep Learning in Biomedical Image Analysis Seminar",
       issuer: "IEEE Computer Society IIUC Student Branch Chapter",
@@ -205,10 +223,10 @@ export function Certifications() {
           className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 mb-12 sm:mb-16"
         >
           {[
-            { icon: Award, value: "11", label: "Certifications" },
+            { icon: Award, value: "13", label: "Certifications" },
             { icon: CheckCircle, value: "30+", label: "Skills Validated" },
             { icon: BookOpen, value: "2", label: "Publications" },
-            { icon: Calendar, value: "2025", label: "Latest" },
+            { icon: Calendar, value: "2026", label: "Latest" },
           ].map((stat, index) => (
             <motion.div
               key={index}

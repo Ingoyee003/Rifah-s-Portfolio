@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Heart, Users, Lightbulb, Globe, Code, Sparkles } from "lucide-react";
+import { Heart, Users, Lightbulb, Globe, Code, Sparkles, Gamepad2 } from "lucide-react";
 
 export function Passions() {
   const passions = [
@@ -52,17 +52,17 @@ export function Passions() {
       ],
     },
     {
-      icon: Sparkles,
-      title: "UI/UX Design",
-      description: "Creating intuitive, beautiful interfaces that users love. I enjoy the intersection of design and functionality.",
-      color: "from-pink-600 to-purple-600",
-      impact: "Design enthusiast",
-      details: [
-        "Studying design principles",
-        "Creating prototypes in Figma",
-        "Learning about user experience",
-      ],
-    },
+  icon: Gamepad2,
+  title: "Game Development",
+  description: "Building interactive games with engaging gameplay, responsive mechanics, and polished player experiences. I enjoy turning ideas into playable experiences.",
+  color: "from-purple-600 to-indigo-600",
+  impact: "Game developer",
+  details: [
+    "Developing 2D games with Unity and C#",
+    "Implementing gameplay mechanics and player controls",
+    "Working with physics, animation, UI, and game systems",
+  ],
+},
     {
       icon: Heart,
       title: "Community & Collaboration",
