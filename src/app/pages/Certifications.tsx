@@ -13,8 +13,8 @@ import cert9 from "./asset/roverx.jpg";
 import cert10 from "./asset/Volunteer.png";
 import cert11 from "./asset/edge.jpg";
 import cert12 from "./asset/P_Hero.jpg";
-import cert13 from "./asset/QPAIN2026.jpg";
-import acceptanceLetter from "./asset/paper_1.jpg";
+import cert13 from "./asset/PID-4493.jpg";
+import acceptanceLetter from "./asset/paper1.jpg";
 
 export function Certifications() {
   const certifications = [
