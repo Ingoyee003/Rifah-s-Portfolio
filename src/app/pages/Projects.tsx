@@ -12,90 +12,102 @@ import {
 } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { useState } from "react";
+
 import xetterLogo from "./asset/xetter.png";
 import squidGameImage from "./asset/Squid.png";
 import loveOMaticImage from "./asset/image.png";
+import genMazeImage from "./asset/GenMaze.png";
+import slotGameImage from "./asset/Slot.jpg";
+import carRacingImage from "./asset/Car.png";
+import catChaseImage from "./asset/CatChase.png";
+import seenAt407Image from "./asset/Seen.jpg";
 
 export function Projects() {
-  const projectCategories = [
-
-
-    //Game Development Category------------------
-    //Game Development Category------------------
-    //Game Development Category------------------
-
-     {
+  const projectCategories: any[] = [
+    // Game Development Category
+    {
       category: "Game Development",
       icon: Code,
       color: "from-green-600 to-teal-600",
       projects: [
-
-       {
-      name: "GenMaze",
-      category: "Puzzle Game",
-      engine: "Unity",
-      status: "Preparing for Play Store",
-      description:
-        "A maze puzzle game focused on navigation, level progression, and engaging problem-solving gameplay.",
-      image: "/asset/GenMaze.png",
-      video: "https://drive.google.com/file/d/1iUrdxVfdZj4IYYsiTmxklq5TbceyrzRe/view?usp=sharing",
-      technologies: ["Unity", "C#", "Game Mechanics", "Android"],
-      github:
+        {
+          name: "GenMaze",
+          category: "Puzzle Game",
+          engine: "Unity",
+          status: "Preparing for Play Store",
+          description:
+            "A maze puzzle game focused on navigation, level progression, and engaging problem-solving gameplay.",
+          image: genMazeImage,
+          video:
+            "https://drive.google.com/file/d/1iUrdxVfdZj4IYYsiTmxklq5TbceyrzRe/view?usp=sharing",
+          technologies: ["Unity", "C#", "Game Mechanics", "Android"],
+          github:
             "https://github.com/Ingoyee003/Maze-Game-MyMaze.git",
-    },
-    {
-      name: "Slot Game",
-      category: "Casual Game",
-      engine: "Unity",
-      status: "Project",
-      description:
-        "A slot-machine-style game featuring interactive gameplay, reel animations, and engaging game mechanics.",
-      image: "/asset/Slot.jpg",
-      video: "https://lnkd.in/p/gdiv5Ydb",
-      technologies: ["Unity", "C#", "UI/UX", "Animation"],
-      github:
+        },
+        {
+          name: "Slot Game",
+          category: "Casual Game",
+          engine: "Unity",
+          status: "Project",
+          description:
+            "A slot-machine-style game featuring interactive gameplay, reel animations, and engaging game mechanics.",
+          image: slotGameImage,
+          video: "https://lnkd.in/p/gdiv5Ydb",
+          technologies: ["Unity", "C#", "UI/UX", "Animation"],
+          github:
             "https://github.com/Ingoyee003/Jackpot-Slot-Game.git",
-    },
-
-       {
-      name: "Car Racing Game",
-      category: "Racing Game",
-      engine: "Unity",
-      status: "Project",
-      description:
-        "A racing game featuring vehicle controls, driving mechanics, collision detection, and racing gameplay.",
-      image: "/asset/Car.png",
-      video: "/videos/car-racing.mp4",
-      technologies: ["Unity", "C#", "2D Physics", "Game Mechanics"],
-      github:
+        },
+        {
+          name: "Car Racing Game",
+          category: "Racing Game",
+          engine: "Unity",
+          status: "Project",
+          description:
+            "A racing game featuring vehicle controls, driving mechanics, collision detection, and racing gameplay.",
+          image: carRacingImage,
+          video: "/videos/car-racing.mp4",
+          technologies: [
+            "Unity",
+            "C#",
+            "2D Physics",
+            "Game Mechanics",
+          ],
+          github:
             "https://github.com/Ingoyee003/2D-racing-game.git",
-    },
-
-         {
-      name: "Cat Chase Game",
-      category: "Arcade Game",
-      engine: "Unity",
-      status: "Project",
-      description:
-        "An entertaining chase game focused on character movement, pursuit mechanics, collision detection, and interactive gameplay.",
-      image: "/asset/CatChase.png",
-      video: "/videos/cat-chase.mp4",
-      technologies: ["Unity", "C#", "Character Movement", "Game AI"],
-    },
-
-     {
-      name: "Seen at 4:07 AM",
-      category: "3D Narrative Game",
-      engine: "Unity",
-      status: "In Development",
-      description:
-        "An atmospheric 3D narrative game exploring emotional storytelling, suspense, immersive environments, and meaningful player experiences.",
-      image: "/asset/Seen.jpg",
-      video: "/videos/seen-at-407.mp4",
-      technologies: ["Unity", "C#", "3D Game Development", "Narrative Design"],
-    },
-
-    {
+        },
+        {
+          name: "Cat Chase Game",
+          category: "Arcade Game",
+          engine: "Unity",
+          status: "Project",
+          description:
+            "An entertaining chase game focused on character movement, pursuit mechanics, collision detection, and interactive gameplay.",
+          image: catChaseImage,
+          video: "/videos/cat-chase.mp4",
+          technologies: [
+            "Unity",
+            "C#",
+            "Character Movement",
+            "Game AI",
+          ],
+        },
+        {
+          name: "Seen at 4:07 AM",
+          category: "3D Narrative Game",
+          engine: "Unity",
+          status: "In Development",
+          description:
+            "An atmospheric 3D narrative game exploring emotional storytelling, suspense, immersive environments, and meaningful player experiences.",
+          image: seenAt407Image,
+          video: "/videos/seen-at-407.mp4",
+          technologies: [
+            "Unity",
+            "C#",
+            "3D Game Development",
+            "Narrative Design",
+          ],
+        },
+        {
           title: "RedLight GreenLight - Squid Game Inspired",
           description:
             "Interactive mobile game inspired by the iconic Squid Game scene. Features motion detection, real-time gameplay, score tracking, and challenging levels with immersive sound effects.",
@@ -111,17 +123,11 @@ export function Projects() {
           demo: "#",
           videoUrl:
             "https://drive.google.com/file/d/1Ra_9tWOBYGuGmPv5noFGE9nCx1NNZ-Pq/view?usp=drive_link",
-          //stars: 52,
         },
-
-
       ],
     },
 
-    //Mobile Development Category------------------
-    //Mobile Development Category------------------
-    //Mobile Development Category------------------
-
+    // Mobile Development Category
     {
       category: "Mobile Development",
       icon: Smartphone,
@@ -132,14 +138,18 @@ export function Projects() {
           description:
             "Full-featured social media application with real-time messaging, post sharing, user profiles, and interactive feed. Built with modern mobile development technologies for seamless user experience.",
           image: xetterLogo,
-          tags: ["Android", "Java", "Firebase", "Social Media"],
-          github: "https://github.com/Ingoyee003/CBI-Final.git",
+          tags: [
+            "Android",
+            "Java",
+            "Firebase",
+            "Social Media",
+          ],
+          github:
+            "https://github.com/Ingoyee003/CBI-Final.git",
           demo: "#",
           videoUrl:
             "https://drive.google.com/file/d/1H1OMfqRECevRtCfN7cyxlLo-klwBtkiC/view?usp=drive_link",
-          //stars: 45,
         },
-        
         {
           title: "RedLight GreenLight - Squid Game Inspired",
           description:
@@ -156,19 +166,23 @@ export function Projects() {
           demo: "#",
           videoUrl:
             "https://drive.google.com/file/d/1Ra_9tWOBYGuGmPv5noFGE9nCx1NNZ-Pq/view?usp=drive_link",
-          //stars: 52,
         },
         {
           title: "Love-O-Matic",
           description:
             "Hilarious couple sarcasm app that brings humor to relationships. Features witty responses, fun challenges, and playful interactions designed to keep couples entertained and laughing together.",
           image: loveOMaticImage,
-          tags: ["Android", "Kotlin", "Entertainment", "Humor"],
-          github: "https://github.com/Ingoyee003/Convince.git",
+          tags: [
+            "Android",
+            "Kotlin",
+            "Entertainment",
+            "Humor",
+          ],
+          github:
+            "https://github.com/Ingoyee003/Convince.git",
           demo: "#",
           videoUrl:
             "https://drive.google.com/file/d/1JJbPgoXolqtHLSC03dm2NQc-rA8jaEYo/view?usp=drive_link",
-          //stars: 28,
         },
         {
           title: "TaskMate - Todo & Productivity App",
@@ -182,20 +196,16 @@ export function Projects() {
             "Local Storage",
             "Productivity",
           ],
-          github: "https://github.com/Ingoyee003/TaskMate.git",
+          github:
+            "https://github.com/Ingoyee003/TaskMate.git",
           demo: "#",
           videoUrl:
             "https://drive.google.com/file/d/1tew_UK_KOzE12OVvdJRLRrh5kTjY9YMs/view?usp=drive_link",
-          //stars: 18,
         },
       ],
     },
 
-
-    //Web Development Category------------------
-    //Web Development Category------------------
-    //Web Development Category------------------
-
+    // Web Development Category
     {
       category: "Web Development",
       icon: Code,
@@ -216,49 +226,58 @@ export function Projects() {
           github:
             "https://github.com/Ingoyee003/Food-Delivery.git",
           demo: "https://ingoyee003.github.io/Food-Delivery/",
-          //stars: 32,
         },
         {
           title: "Modern Portfolio with 3D Animation",
           description:
             "Cutting-edge portfolio website featuring stunning 3D animations, smooth scroll effects, interactive elements, and modern UI/UX design to showcase projects in an immersive experience.",
           image:
-            "https://images.unsplash.com/photo-1720983590448-28b749bd403d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBwb3J0Zm9saW8lMjAzZCUyMHdlYnNpdGUlMjBjcmVhdGl2ZXxlbnwxfHx8fDE3NzMyMjcxMjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          tags: ["React", "Three.js", "GSAP", "Tailwind CSS"],
+            "https://images.unsplash.com/photo-1720983590448-28b749bd403d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBwb3J0Zm9saW8lMjAzRCUyMHdlYnNpdGUlMjBjcmVhdGl2ZXxlbnwxfHx8fDE3NzMyMjcxMjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+          tags: [
+            "React",
+            "Three.js",
+            "GSAP",
+            "Tailwind CSS",
+          ],
           github:
             "https://github.com/Ingoyee003/Modern-Portfolio.git",
-          demo: "https://ingoyee003.github.io/Modern-Portfolio/",
-          //stars: 45,
+          demo:
+            "https://ingoyee003.github.io/Modern-Portfolio/",
         },
         {
           title: "Professional Portfolio",
           description:
             "Latest interactive portfolio website with dynamic animations, engaging user interactions, responsive design, and modern aesthetics to create a memorable browsing experience.",
           image:
-            "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMHBvcnRmb2xpbyUyMHdlYnNpdGUlMjBkZXZlbG9wZXJ8ZW58MXx8fHwxNzczMjI3MTI0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-          tags: ["React", "Framer Motion", "TypeScript", "CSS"],
+            "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMHBvcnRmb2xpbw?ixlib=rb-4.1.0&q=80&w=1080",
+          tags: [
+            "React",
+            "Framer Motion",
+            "TypeScript",
+            "CSS",
+          ],
           github:
             "https://github.com/Ingoyee003/Rifah-s-Portfolio.git",
           demo: "https://rifah-portfolio.vercel.app/",
-          //stars: 28,
         },
         {
           title: "CRM Platform - Industrial Project",
           description:
             "Comprehensive Customer Relationship Management platform for enterprise-level business operations. Industrial project with confidential details - proprietary solution for client management and business analytics.",
           image:
-            "https://images.unsplash.com/photo-1586448354773-30706da80a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMENSTSUyMHNvZnR3YXJlJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3MzE5ODc0OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+            "https://images.unsplash.com/photo-1586448354773-30706da80a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxidXNpbmVzcyUyMENSTSUyMHNvZnR3YXJlJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3MzE5ODc0OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
           tags: [
             "React",
             "Node.js",
             "PostgreSQL",
             "Enterprise",
           ],
-          //stars: 0,
           hideLinks: true,
         },
       ],
     },
+
+    // UI/UX Design Category
     {
       category: "UI/UX Design",
       icon: Palette,
@@ -269,15 +288,15 @@ export function Projects() {
           description:
             "Complete UI/UX design for a personal portfolio website featuring modern aesthetics, smooth interactions, and intuitive navigation. Fully designed and prototyped in Figma with interactive elements.",
           image:
-            "https://images.unsplash.com/photo-1710799885122-428e63eff691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHBvcnRmb2xpbyUyMHVpJTIwdXglMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzczMjI4MTM4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+            "https://images.unsplash.com/photo-1710799885122-428e63eff691?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxjcmVhdGl2ZSUyMHBvcnRmb2xpbw?ixlib=rb-4.1.0&q=80&w=1080",
           tags: [
             "Figma",
             "UI Design",
             "Prototyping",
             "Interactive Design",
           ],
-          demo: "https://www.figma.com/proto/IlQKDgeRosqRTrJ32RjNhN/Rifah-s-Portfolio?node-id=16-6&p=f&t=uVk3nOxnZEnO5D5N-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A6",
-          //stars: 52,
+          demo:
+            "https://www.figma.com/proto/IlQKDgeRosqRTrJ32RjNhN/Rifah-s-Portfolio?node-id=16-6&p=f&t=uVk3nOxnZEnO5D5N-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A6",
           hideGithub: true,
         },
         {
@@ -292,8 +311,8 @@ export function Projects() {
             "Admin Panel",
             "UX Research",
           ],
-          demo: "https://www.figma.com/proto/10BT2xhpM62xSADP1mfH2Z/glimpse-of-works?node-id=1-87&t=yseQQIqHDaAKPdJb-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A86",
-          //stars: 38,
+          demo:
+            "https://www.figma.com/proto/10BT2xhpM62xSADP1mfH2Z/glimpse-of-works?node-id=1-87&t=yseQQIqHDaAKPdJb-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A86",
           hideGithub: true,
         },
         {
@@ -301,19 +320,21 @@ export function Projects() {
           description:
             "Interactive game prototype design with engaging gameplay mechanics, immersive visuals, and user-friendly controls. Complete game flow and interface designed for optimal player experience.",
           image:
-            "https://images.unsplash.com/photo-1763905180930-892ee8d37ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYW1lJTIwcHJvdG90eXBlJTIwZGVzaWduJTIwZ2FtaW5nJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MzIyNzg1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+            "https://images.unsplash.com/photo-1763905180930-892ee8d37ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxnYW1lJTIwcHJvdG90eXBlJTIwZGVzaWduJTIwZ2FtaW5nJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3MzIyNzg1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
           tags: [
             "Figma",
             "Game Design",
             "Prototyping",
             "User Experience",
           ],
-          demo: "https://www.figma.com/proto/7AhQo2lg4wULvbSLKCmpLM/Relieved-Game-Prototype?node-id=1-55&t=xPmrs8tQFXH3LRgR-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2",
-          //stars: 45,
+          demo:
+            "https://www.figma.com/proto/7AhQo2lg4wULvbSLKCmpLM/Relieved-Game-Prototype?node-id=1-55&t=xPmrs8tQFXH3LRgR-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2",
           hideGithub: true,
         },
       ],
     },
+
+    // Testing & Automation Category
     {
       category: "Testing & Automation",
       icon: TestTube,
@@ -333,7 +354,6 @@ export function Projects() {
           ],
           github:
             "https://github.com/Ingoyee003/Odoo-Purchase-Module-Functional-Testing.git",
-          //stars: 24,
         },
         {
           title: "Cross-Browser & Responsive Testing",
@@ -341,57 +361,83 @@ export function Projects() {
             "Conducted cross-browser and responsive testing to ensure consistent functionality and layout across Chrome, Firefox, and Edge browsers as well as different screen sizes. Identified UI misalignment, responsiveness issues, and layout inconsistencies.",
           image:
             "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1080&auto=format&fit=crop",
-          tags: ["Cross Browser Testing", "Responsive Testing", "UI Testing"],
+          tags: [
+            "Cross Browser Testing",
+            "Responsive Testing",
+            "UI Testing",
+          ],
           github:
-                    "https://github.com/Ingoyee003/Cross-Browser-Responsive-Testing.git",
-                  //stars: 24,
+            "https://github.com/Ingoyee003/Cross-Browser-Responsive-Testing.git",
         },
-         {
+        {
           title: "REST API Testing with Postman",
           description:
             "Tested REST APIs using Postman by validating request methods, response codes, and JSON data structures. Designed API test scenarios, verified CRUD operations, and documented results to ensure API reliability and correctness.",
           image:
             "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1080&auto=format&fit=crop",
-          tags: ["API Testing", "Postman", "REST API", "JSON Validation"],
-          github: "https://github.com/Ingoyee003/employee-api-testing-postman-newman.git"
-      },
+          tags: [
+            "API Testing",
+            "Postman",
+            "REST API",
+            "JSON Validation",
+          ],
+          github:
+            "https://github.com/Ingoyee003/employee-api-testing-postman-newman.git",
+        },
         {
           title: "E-commerce Test Automation Suite",
           description:
             "Comprehensive test automation framework for e-commerce platform covering end-to-end testing, API testing, and regression testing using Selenium.",
           image:
             "https://images.unsplash.com/photo-1556155092-490a1ba16284?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZXN0aW5nJTIwY29kZXxlbnwxfHx8fDE3NDA2ODgxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          tags: ["Selenium", "Java", "TestNG", "Maven"],
-          //stars: 19,
+          tags: [
+            "Selenium",
+            "Java",
+            "TestNG",
+            "Maven",
+          ],
           hideLinks: true,
         },
         {
-        title: "360 Pathshala Website Manual Testing",
-        description:
-          "Conducted manual testing on the 360 Pathshala website to evaluate functionality, usability, and responsiveness. Designed and executed test cases, identified UI inconsistencies, broken links, and validation issues, and documented findings through structured bug reports.",
-        image:
-          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop",
-        tags: ["Manual Testing", "Test Case Design", "Bug Reporting", "UI Testing"],
-        //stars: 19,
-        hideLinks: true,
-      },
-      {
+          title: "360 Pathshala Website Manual Testing",
+          description:
+            "Conducted manual testing on the 360 Pathshala website to evaluate functionality, usability, and responsiveness. Designed and executed test cases, identified UI inconsistencies, broken links, and validation issues, and documented findings through structured bug reports.",
+          image:
+            "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1080&auto=format&fit=crop",
+          tags: [
+            "Manual Testing",
+            "Test Case Design",
+            "Bug Reporting",
+            "UI Testing",
+          ],
+          hideLinks: true,
+        },
+        {
           title: "Web Application Manual Testing (OrangeHRM Demo)",
           description:
             "Performed end-to-end manual testing on the OrangeHRM demo web application. Created test cases for login, employee management, and leave modules. Identified UI issues, input validation errors, and functional bugs while documenting results in structured test reports.",
           image:
             "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1080&auto=format&fit=crop",
-          tags: ["Manual Testing", "Test Case Writing", "Functional Testing", "Bug Reporting"],
+          tags: [
+            "Manual Testing",
+            "Test Case Writing",
+            "Functional Testing",
+            "Bug Reporting",
+          ],
           hideLinks: true,
-      },
+        },
         {
           title: "Mobile App Testing Framework",
           description:
             "Automated testing framework for Android apps using Appium with test case management and detailed reporting.",
           image:
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjB0ZXN0aW5nfGVufDF8fHx8MTc0MDY4ODE1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-          tags: ["Appium", "Android", "Python", "Pytest"],
-          //stars: 16,
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHx8fDE3NDA2ODgxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          tags: [
+            "Appium",
+            "Android",
+            "Python",
+            "Pytest",
+          ],
           hideLinks: true,
         },
       ],
@@ -399,9 +445,10 @@ export function Projects() {
   ];
 
   const [activeCategory, setActiveCategory] = useState("All");
-  const [selectedVideo, setSelectedVideo] = useState<
-    string | null
-  >(null);
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(
+    null,
+  );
+
   const categories = [
     "All",
     ...projectCategories.map((cat) => cat.category),
@@ -435,6 +482,7 @@ export function Projects() {
               My Projects
             </span>
           </h1>
+
           <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 px-4">
             A collection of my work across mobile development,
             web development, UI/UX design, and testing
@@ -481,16 +529,18 @@ export function Projects() {
               >
                 <categoryData.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
+
               <h2 className="text-2xl sm:text-3xl text-gray-900 dark:text-white">
                 {categoryData.category}
               </h2>
+
               <div className="flex-1 h-px bg-gradient-to-r from-gray-300 dark:from-gray-700 to-transparent" />
             </div>
 
             {/* Projects Grid */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-              {categoryData.projects.map(
-                (project, projectIndex) => (
+              {(categoryData.projects || []).map(
+                (project: any, projectIndex: number) => (
                   <motion.div
                     key={projectIndex}
                     initial={{ opacity: 0, y: 30 }}
@@ -501,39 +551,43 @@ export function Projects() {
                   >
                     {/* Project Image */}
                     <div className="relative h-48 sm:h-56 overflow-hidden">
-                      {typeof project.image === "string" ? (
-                        <ImageWithFallback
-                          src={project.image}
-                          alt={project.title}
-                          className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
-                        />
-                      ) : (
-                        <img
-                          src={project.image}
-                          alt={project.title}
-                          className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
-                        />
+                      <ImageWithFallback
+                        src={project.image}
+                        alt={
+                          project.title ||
+                          project.name ||
+                          "Project image"
+                        }
+                        className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                      />
+
+                      {project.stars != null && (
+                        <div className="absolute top-3 right-3 flex items-center gap-1 bg-white/90 dark:bg-gray-900/90 backdrop-blur px-2 py-1 rounded-full">
+                          <Star className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-500 fill-yellow-500" />
+                          <span className="text-xs sm:text-sm text-gray-900 dark:text-white">
+                            {project.stars}
+                          </span>
+                        </div>
                       )}
-                      <div className="absolute top-3 right-3 flex items-center gap-1 bg-white/90 dark:bg-gray-900/90 backdrop-blur px-2 py-1 rounded-full">
-                        <Star className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-500 fill-yellow-500" />
-                        <span className="text-xs sm:text-sm text-gray-900 dark:text-white">
-                          {project.stars}
-                        </span>
-                      </div>
                     </div>
 
                     {/* Project Content */}
                     <div className="p-5 sm:p-6 flex-1 flex flex-col">
                       <h3 className="text-lg sm:text-xl text-gray-900 dark:text-white mb-2">
-                        {project.title}
+                        {project.title || project.name}
                       </h3>
+
                       <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mb-4 flex-1">
                         {project.description}
                       </p>
 
                       {/* Tags */}
                       <div className="flex flex-wrap gap-2 mb-4">
-                        {project.tags.map((tag, i) => (
+                        {(
+                          project.tags ||
+                          project.technologies ||
+                          []
+                        ).map((tag: string, i: number) => (
                           <span
                             key={i}
                             className={`px-2 sm:px-3 py-1 bg-gradient-to-r ${categoryData.color} bg-opacity-10 text-xs sm:text-sm rounded-full text-gray-700 dark:text-gray-300`}
@@ -558,12 +612,15 @@ export function Projects() {
                               Code
                             </a>
                           )}
+
                         {!project.hideLinks &&
-                          project.videoUrl && (
+                          (project.videoUrl || project.video) && (
                             <button
                               onClick={() =>
                                 setSelectedVideo(
-                                  project.videoUrl || null,
+                                  project.videoUrl ||
+                                    project.video ||
+                                    null,
                                 )
                               }
                               className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-purple-400 transition-colors"
@@ -572,8 +629,9 @@ export function Projects() {
                               View Demo
                             </button>
                           )}
+
                         {!project.hideLinks &&
-                          !project.videoUrl &&
+                          !(project.videoUrl || project.video) &&
                           project.demo &&
                           project.demo !== "#" && (
                             <a
@@ -618,6 +676,7 @@ export function Projects() {
               <div className="text-2xl sm:text-3xl mb-1 sm:mb-2">
                 {stat.value}
               </div>
+
               <div className="text-xs sm:text-sm opacity-90">
                 {stat.label}
               </div>
@@ -652,12 +711,47 @@ export function Projects() {
 
             {/* Video Player */}
             <div className="relative aspect-video bg-black">
-              <iframe
-                src={selectedVideo.replace('/view?usp=drive_link', '/preview')}
-                className="w-full h-full"
-                allow="autoplay"
-                allowFullScreen
-              />
+              {/\.mp4(?:[?#].*)?$/i.test(selectedVideo) ? (
+                <video
+                  src={selectedVideo}
+                  className="w-full h-full"
+                  controls
+                  playsInline
+                  autoPlay
+                >
+                  Your browser does not support video playback.
+                </video>
+              ) : selectedVideo.includes(
+                  "drive.google.com/file/d/",
+                ) ? (
+                <iframe
+                  src={selectedVideo.replace(
+                    /\/view(?:\?.*)?$/,
+                    "/preview",
+                  )}
+                  title="Project demo video"
+                  className="w-full h-full"
+                  allow="autoplay; encrypted-media; picture-in-picture"
+                  allowFullScreen
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center gap-4 p-6 text-white">
+                  <Play className="w-10 h-10" />
+
+                  <p className="text-center">
+                    This demo cannot be embedded here.
+                  </p>
+
+                  <a
+                    href={selectedVideo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-white px-4 py-2 text-gray-900 hover:bg-gray-200"
+                  >
+                    Open demo in new tab
+                  </a>
+                </div>
+              )}
             </div>
 
             {/* Info */}
