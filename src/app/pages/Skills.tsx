@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Code, Database, Cloud, Palette, Wrench, Users, Smartphone, TestTube, Bug, FileCode } from "lucide-react";
 import { GSAP3DCard } from "../components/GSAP3DCard";
 import { GSAP3DText } from "../components/GSAP3DText";
+import { code } from "three/src/nodes/code/CodeNode.js";
 
 export function Skills() {
   const skillCategories = [
@@ -10,16 +11,47 @@ export function Skills() {
       title: "Programming Languages",
       color: "from-indigo-600 to-blue-600",
       skills: [
-        { name: "Java", level: 88 },
+        { name: "Java", level: 80 },
         { name: "Kotlin", level: 85 },
         { name: "TypeScript", level: 82 },
         { name: "HTML/CSS", level: 90 },
         { name: "Python", level: 78 },
         { name: "C/C++", level: 90 },
-        { name: "C#", level: 68 },
+        { name: "C#", level: 80 },
         { name: "GDScript", level: 75 },
       ],
     },
+    
+    
+{
+  icon: Code,
+  title: "Game Development",
+  color: "from-purple-600 to-pink-600",
+  skills: [
+    { name: "Unity Game Development", level: 85 },
+    { name: "Godot Engine", level: 75 },
+    { name: "C# & Gameplay Programming", level: 85 },
+    { name: "C++ & Custom Game Engine Development", level: 75 },
+    { name: "3D Game Development & Physics", level: 80 },
+    { name: "Android Game Development", level: 85 },
+    { name: "Game Optimization & Performance Profiling", level: 80 },
+  ],
+},
+
+
+    {
+      icon: Smartphone,
+      title: "Mobile Development",
+      color: "from-green-600 to-teal-600",
+      skills: [
+        { name: "Android (Java/Kotlin)", level: 80 },
+        { name: "Flutter (Dart)", level: 80 },
+        { name: "Android Studio", level: 90 },
+        { name: "Mobile UI/UX", level: 90 },
+        { name: "Firebase Integration", level: 80 },
+      ],
+    },
+
     {
       icon: TestTube,
       title: "Quality Assurance & Testing",
@@ -35,18 +67,7 @@ export function Skills() {
         { name: "API Testing", level: 82 },
       ],
     },
-    {
-      icon: Smartphone,
-      title: "Mobile Development",
-      color: "from-green-600 to-teal-600",
-      skills: [
-        { name: "Android (Java/Kotlin)", level: 80 },
-        { name: "Flutter (Dart)", level: 80 },
-        { name: "Android Studio", level: 90 },
-        { name: "Mobile UI/UX", level: 90 },
-        { name: "Firebase Integration", level: 80 },
-      ],
-    },
+
     {
       icon: Code,
       title: "Frontend Development",

@@ -18,6 +18,110 @@ import loveOMaticImage from "./asset/image.png";
 
 export function Projects() {
   const projectCategories = [
+
+
+    //Game Development Category------------------
+    //Game Development Category------------------
+    //Game Development Category------------------
+
+     {
+      category: "Game Development",
+      icon: Code,
+      color: "from-green-600 to-teal-600",
+      projects: [
+
+       {
+      name: "GenMaze",
+      category: "Puzzle Game",
+      engine: "Unity",
+      status: "Preparing for Play Store",
+      description:
+        "A maze puzzle game focused on navigation, level progression, and engaging problem-solving gameplay.",
+      image: "/asset/GenMaze.png",
+      video: "https://drive.google.com/file/d/1iUrdxVfdZj4IYYsiTmxklq5TbceyrzRe/view?usp=sharing",
+      technologies: ["Unity", "C#", "Game Mechanics", "Android"],
+      github:
+            "https://github.com/Ingoyee003/Maze-Game-MyMaze.git",
+    },
+    {
+      name: "Slot Game",
+      category: "Casual Game",
+      engine: "Unity",
+      status: "Project",
+      description:
+        "A slot-machine-style game featuring interactive gameplay, reel animations, and engaging game mechanics.",
+      image: "/asset/Slot.jpg",
+      video: "https://lnkd.in/p/gdiv5Ydb",
+      technologies: ["Unity", "C#", "UI/UX", "Animation"],
+      github:
+            "https://github.com/Ingoyee003/Jackpot-Slot-Game.git",
+    },
+
+       {
+      name: "Car Racing Game",
+      category: "Racing Game",
+      engine: "Unity",
+      status: "Project",
+      description:
+        "A racing game featuring vehicle controls, driving mechanics, collision detection, and racing gameplay.",
+      image: "/asset/Car.png",
+      video: "/videos/car-racing.mp4",
+      technologies: ["Unity", "C#", "2D Physics", "Game Mechanics"],
+      github:
+            "https://github.com/Ingoyee003/2D-racing-game.git",
+    },
+
+         {
+      name: "Cat Chase Game",
+      category: "Arcade Game",
+      engine: "Unity",
+      status: "Project",
+      description:
+        "An entertaining chase game focused on character movement, pursuit mechanics, collision detection, and interactive gameplay.",
+      image: "/asset/CatChase.png",
+      video: "/videos/cat-chase.mp4",
+      technologies: ["Unity", "C#", "Character Movement", "Game AI"],
+    },
+
+     {
+      name: "Seen at 4:07 AM",
+      category: "3D Narrative Game",
+      engine: "Unity",
+      status: "In Development",
+      description:
+        "An atmospheric 3D narrative game exploring emotional storytelling, suspense, immersive environments, and meaningful player experiences.",
+      image: "/asset/Seen.jpg",
+      video: "/videos/seen-at-407.mp4",
+      technologies: ["Unity", "C#", "3D Game Development", "Narrative Design"],
+    },
+
+    {
+          title: "RedLight GreenLight - Squid Game Inspired",
+          description:
+            "Interactive mobile game inspired by the iconic Squid Game scene. Features motion detection, real-time gameplay, score tracking, and challenging levels with immersive sound effects.",
+          image: squidGameImage,
+          tags: [
+            "Android",
+            "Kotlin",
+            "Game Dev",
+            "Motion Detection",
+          ],
+          github:
+            "https://github.com/Ingoyee003/Squid-Games.git",
+          demo: "#",
+          videoUrl:
+            "https://drive.google.com/file/d/1Ra_9tWOBYGuGmPv5noFGE9nCx1NNZ-Pq/view?usp=drive_link",
+          //stars: 52,
+        },
+
+
+      ],
+    },
+
+    //Mobile Development Category------------------
+    //Mobile Development Category------------------
+    //Mobile Development Category------------------
+
     {
       category: "Mobile Development",
       icon: Smartphone,

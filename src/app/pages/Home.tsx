@@ -108,7 +108,7 @@ export function Home() {
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  Hi, I'm Mahmuda Islam Rifah
+                  Hi, This is Mahmuda Islam Rifah
                 </span>
               </motion.h1>
 
@@ -118,7 +118,7 @@ export function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
-                SQA Engineer | Mobile & Web Developer | UI/UX Designer
+                Game Developer | Mobile & Web Developer |SQA Engineer
               </motion.p>
 
               <motion.p
@@ -127,7 +127,7 @@ export function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Passionate tech professional with expertise in quality assurance, mobile app development (Android & Flutter), and crafting intuitive user experiences. As founder of Contradox, I blend technical skills with entrepreneurial vision to build innovative digital solutions.
+                Passionate tech professional with expertise in Game Development, Mobile app development (Android & Flutter), quality assurance, and crafting intuitive user experiences. As founder of Contradox, I blend technical skills with entrepreneurial vision to build innovative digital solutions.
               </motion.p>
 
               <motion.div
@@ -223,7 +223,7 @@ export function Home() {
                 International Islamic University Chittagong
               </p>
               <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-500 mt-1">
-                Expected Graduation: 2026
+                Jan 2022 - Aug 2026
               </p>
             </motion.div>
 
@@ -237,7 +237,7 @@ export function Home() {
               </div>
               <h3 className="text-lg sm:text-xl mb-3 text-gray-900 dark:text-white">Founder & Developer</h3>
               <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                Founder of Contradox, building innovative mobile and web solutions. Combining technical expertise in QA, mobile development, and UI/UX design with entrepreneurial leadership.
+                Founder of Contradox, building interesting and engaging game, innovative mobile and web solutions. Combining technical expertise in QA, mobile development, and Game Development with entrepreneurial leadership.
               </p>
             </motion.div>
           </motion.div>
@@ -347,7 +347,7 @@ export function Home() {
             {[
               { value: "15+", label: "Projects" },
               { value: "2", label: "Startups" },
-              { value: "1.5 Years", label: "Experience" },
+              { value: "2+ Years", label: "Experience" },
             ].map((stat, index) => (
               <motion.div
                 key={index}

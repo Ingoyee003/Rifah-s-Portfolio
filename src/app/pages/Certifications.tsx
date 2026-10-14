@@ -14,7 +14,7 @@ import cert10 from "./asset/Volunteer.png";
 import cert11 from "./asset/edge.jpg";
 import cert12 from "./asset/P_Hero.jpg";
 import cert13 from "./asset/PID-4493.jpg";
-import acceptanceLetter from "./asset/paper1.jpg";
+import acceptanceLetter from "./asset/paper1.png";
 
 export function Certifications() {
   const certifications = [

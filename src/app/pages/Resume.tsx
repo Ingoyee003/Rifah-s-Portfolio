@@ -31,6 +31,15 @@ export function Resume() {
               onClick={() => window.open('https://drive.google.com/drive/folders/1d7j8-N39rEvfDl1eoElHrgdRc9ds6OlG?usp=sharing', '_blank')}
               className="px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white text-sm sm:text-base rounded-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
             >
+
+            <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+              Download Game Dev Resume
+            </button>
+            <button
+              onClick={() => window.open('https://drive.google.com/drive/folders/1d7j8-N39rEvfDl1eoElHrgdRc9ds6OlG?usp=sharing', '_blank')}
+              className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-sm sm:text-base rounded-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+            >
+
               <Download className="w-4 h-4 sm:w-5 sm:h-5" />
               Download SQA Resume
             </button>
@@ -38,6 +47,8 @@ export function Resume() {
               onClick={() => window.open('https://drive.google.com/drive/folders/1d7j8-N39rEvfDl1eoElHrgdRc9ds6OlG?usp=sharing', '_blank')}
               className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-sm sm:text-base rounded-lg hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
             >
+
+
               <Download className="w-4 h-4 sm:w-5 sm:h-5" />
               Download Mobile Dev Resume
             </button>
@@ -71,6 +82,19 @@ export function Resume() {
                   "Building scalable solutions using modern tech stacks",
                 ],
               },
+
+              {
+                title: "SQA Automation Engineer Trainee",
+                company: "a1qa",
+                period: "July 2026 - September 2026",
+                description: [
+                  "Performed manual and automation testing for various software applications",
+                  "Created and executed test cases to ensure product quality",
+                  "Identified and documented bugs, working closely with development team",
+                  "Gained experience in quality assurance best practices and testing methodologies",
+                ],
+              },
+
               {
                 title: "SQA Intern",
                 company: "SQALOGY",
@@ -148,7 +172,7 @@ export function Resume() {
               {
                 degree: "Bachelor of Science in Computer Science and Engineering",
                 school: "International Islamic University Chittagong",
-                period: "Jan 2022 - July 2026",
+                period: "Jan 2022 - Aug 2026",
                 //gpa: "N/A",
                 highlights: [
                   "Specialization in Software Engineering and Mobile Application Development",
@@ -200,6 +224,7 @@ export function Resume() {
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {[
               "Completed 15+ personal projects",
+              "Completed 5+ client projects",
               "Achieved many voluntary and skills certificates over the years",
               "Contributed to 3 open-source projects on GitHub",
               //"Completed Google UX Design Certificate",
